@@ -1,0 +1,22 @@
+{
+  "name": "skyline/direct-components-hotlink-protection",
+  "license": "BSD-3-Clause",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Thomas Abplanalp",
+      "email": "info@tasoft.ch"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Skyline\\Component\\" : "src"
+    }
+  },
+  "require" : {
+    "php": "^7.2",
+    "skyline/direct-components": "dev-master"
+  },
+  "require-dev": {
+  }
+}
