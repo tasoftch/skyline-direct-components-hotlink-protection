@@ -36,7 +36,7 @@ use Skyline\Component\Plugin\HotlinkProtectionPlugin;
 use Skyline\Kernel\Config\PluginConfig;
 
 return [
-    "dc-deliver" => [
+    "dc-deliver-hl-protection" => [
         PluginConfig::PLUGIN_EVENT_NAME => SKY_EVENT_DC_DELIVER,
         PluginConfig::PLUGIN_CLASS => HotlinkProtectionPlugin::class,
         PluginConfig::PLUGIN_METHOD => 'checkHotlinking',
